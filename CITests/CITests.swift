@@ -31,4 +31,10 @@ class CITests: XCTestCase {
         }
     }
 
+    func testSomeModel() {
+        
+        let model = SomeModel(myEnum: .two)
+        let raw = globalFunc(for: model)
+        XCTAssertEqual(raw, 2)
+    }
 }

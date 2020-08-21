@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CITests.xctest' tests='3' failures='0'>
+  <testsuite name='CITests.CITests' tests='3' failures='0'>
+    <testcase classname='CITests.CITests' name='testExample' time='0.002'/>
+    <testcase classname='CITests.CITests' name='testPerformanceExample' time='0.317'/>
+    <testcase classname='CITests.CITests' name='testSomeModel' time='0.001'/>
+  </testsuite>
+</testsuites>

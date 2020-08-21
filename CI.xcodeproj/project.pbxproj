@@ -14,6 +14,7 @@
 		BF0E531B24EFF956006E05B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0E531A24EFF956006E05B5 /* Preview Assets.xcassets */; };
 		BF0E531E24EFF956006E05B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0E531C24EFF956006E05B5 /* LaunchScreen.storyboard */; };
 		BF0E532924EFF957006E05B5 /* CITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E532824EFF957006E05B5 /* CITests.swift */; };
+		BF0E533424EFFAFE006E05B5 /* SomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0E533324EFFAFE006E05B5 /* SomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BF0E532424EFF957006E05B5 /* CITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0E532824EFF957006E05B5 /* CITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CITests.swift; sourceTree = "<group>"; };
 		BF0E532A24EFF957006E05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0E533324EFFAFE006E05B5 /* SomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BF0E531124EFF953006E05B5 /* AppDelegate.swift */,
 				BF0E531324EFF953006E05B5 /* SceneDelegate.swift */,
 				BF0E531524EFF953006E05B5 /* ContentView.swift */,
+				BF0E533324EFFAFE006E05B5 /* SomeModel.swift */,
 				BF0E531724EFF956006E05B5 /* Assets.xcassets */,
 				BF0E531C24EFF956006E05B5 /* LaunchScreen.storyboard */,
 				BF0E531F24EFF956006E05B5 /* Info.plist */,
@@ -211,6 +214,7 @@
 				BF0E531224EFF953006E05B5 /* AppDelegate.swift in Sources */,
 				BF0E531424EFF953006E05B5 /* SceneDelegate.swift in Sources */,
 				BF0E531624EFF953006E05B5 /* ContentView.swift in Sources */,
+				BF0E533424EFFAFE006E05B5 /* SomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
