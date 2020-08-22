@@ -34,9 +34,9 @@ jobs:
     - name: Run a multi-line script
       run: |
         fastlane tests
-        
-  if: ${{ github.event.inputs.deploy_it == 'true' }}
+      
   deploy:
+      if: github.event.inputs.deploy_it == 'true'
       runs-on: self-hosted
       needs: tests
       steps:
