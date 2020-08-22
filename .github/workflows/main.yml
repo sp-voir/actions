@@ -8,16 +8,13 @@ on:
     branches: [ master, developer ]
   pull_request:
     branches: [ master ]
+    
   workflow_dispatch:
     inputs:
-    version:
-      description: 'Application version'
-      required: true
-      
-    deploy_it:
-      description: 'Deploy it'
-      required: false
-      default: false
+      deploy_it:
+        description: 'Deploy it'     
+        required: true
+        default: 'true'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
