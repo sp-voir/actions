@@ -34,14 +34,14 @@ jobs:
     - name: Run a multi-line script
       run: |
         fastlane tests
-    
+        
+  if: ${{ github.event.inputs.deploy_it == 'true' }}
   deploy:
       runs-on: self-hosted
       needs: tests
-      if: ${{ github.event.inputs.deploy_it == 'true' }}
       steps:
-      - name: deploy packages
       - uses: actions/checkout@v1
+      - name: deploy packages
         run: |
           echo "Deploying packages"
         
